@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IbrahimPlus AI Writer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">✍️ IbrahimPlus AI Writer</h1>
+    <select id="language" onchange="switchLanguage()">
+      <option value="en">English</option>
+      <option value="ar">العربية</option>
+    </select>
+    <textarea id="input" placeholder="Enter your idea or title here..."></textarea>
+    <button onclick="generateContent()">Generate</button>
+    <div id="output"></div>
+    <button onclick="copyOutput()">Copy</button>
+
+    <!-- زر دعم -->
+    <div style="margin-top: 20px;">
+      <a href="https://www.buymeacoffee.com/ibrahimplus" target="_blank">
+        ☕ ادعمني عبر BuyMeACoffee
+      </a>
+    </div>
+
+    <!-- كود إعلان AdSense (placeholder) -->
+    <div style="margin-top: 40px;">
+      <!-- Google AdSense Code هنا -->
+      <p style="font-size: 12px; color: #888;">[مكان الإعلان]</p>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
